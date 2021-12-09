@@ -1,0 +1,52 @@
+tep1
+creating npx create react app and clone all files to the project
+
+step 2
+plane how to to structure components and figure out components and choosing functional components
+instead of class components
+<Header>, <books>, <shelf> , <shelves> & <SearchBooks>
+
+step 3
+creating all components and adjust the app.js file. using the components
+
+step 4 Managing State
+i use function components so am able to use the react hooks.
+https://www.w3schools.com/react/react_usestate.asp
+https://devdocs.io/react/
+https://reactjs.org/docs/hooks-state.html
+useState() hook.
+on App.js
+
+Step 5
+UseEffect() hook
+https://www.w3schools.com/react/react_useeffect.asp
+https://www.youtube.com/watch?v=DNdZ3-MiF1E
+https://reactjs.org/docs/hooks-effect.html
+step8
+Managing Api
+in class based conmponents it used 
+componentDidMount(),componentWillMount() and componentDidUpDate is used in functional component i am going to use useEffect() hook
+
+Step 6 useEffect{()}
+we can use the book api.getall() to get the books arrey 
+Step 7
+we can change the state locally and the backendapi using
+books.api 
+update()
+
+step 8
+we can useEffect() method to work on the Serach method.
+inorder to mangae the state with shlves we can merege the states.
+if the books are already on shlves we don't have to search them as at select none.
+
+step 9
+npm install react-router-dom
+inorder to use the back and forward on browser we can use the react-router.
+import{browserRouter}
+step 11 usedebounce hook.
+we can usedebounce() to get the limited noumber of api called.
+
+Challange
+
+Challange was i started this course with little knowladge of javascript and Es-6 i had to to study a lot javascrtipt and html and css to understand what is going on.
+i have spend to much time to understand the current way of handling states and api and UI. The udacity course was mostly class based so it was a harder to wrap my mind in handling react states and changes . 
